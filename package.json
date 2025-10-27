@@ -1,0 +1,12 @@
+{
+    "name": "owl-ai",
+    "private": true,
+    "version": "0.1.0",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "npm run --workspaces build"
+    }
+}
